@@ -11,11 +11,12 @@ First you have to edit your crontab:
 crontab -e
 ```
 If you haven't used crontab before you have to specify which text editor you want to use.
-Then you have to add the following line to the end of the file that opens:
+
+Now add the following line to the end of the file that opens:
 ```
-0 * * * * /bin/sh /home/USER/hubble-wp/hubble-wp.sh >> /home/USER/hubble-wp/log.txt
+0 * * * * /bin/sh /path/to/hubble-wp/hubble-wp.sh >> /path/to/hubble-wp/log.txt
 ```
 
-Remember to replace the user with your own username. Now save the file and close the text editor.
+Remember to replace the path to your own one. Now save the file and close the text editor.
 
-Voilà! Now the script is scheduled to on an hourly basis and every hour you are greeted with a new cool picture taken by the Hubble Space Telescope!
+Voilà! Now the script is scheduled to run on an hourly basis and every hour you will be greeted with a cool new picture taken by the Hubble Space Telescope!
