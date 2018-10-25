@@ -1,5 +1,7 @@
 ### Hubble Space Telescope wallpapers
 
+* * Note that this was developed on a machine that's running Ubuntu 18.04. The script doesn't seem to work on a machine running Ubuntu 16.04 * *
+
 This is a small script to fetch an image taken by the Hubble Space Telescope and set it as your wallpaper.
 
 Executing the hubble_wp.py file will do the trick but if you want to schedule the execution (say to run it every hour) with crontab, the hubble-wp.sh file has to be used.
