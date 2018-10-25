@@ -1,4 +1,4 @@
-###Hubble Space Telescope wallpaper
+### Hubble Space Telescope wallpapers
 
 This is a small script to fetch an image taken by the Hubble Space Telescope and set it as your wallpaper.
 
@@ -7,14 +7,14 @@ Executing the hubble_wp.py file will do the trick but if you want to schedule th
 This is how to schedule the script to run every hour:
 
 First you have to edit your crontab:
-''' 
+```
 crontab -e
-'''
+```
 If you haven't used crontab before you have to specify which text editor you want to use.
 Then you have to add the following line to the end of the file that opens:
-'''
+```
 0 * * * * /bin/sh /home/USER/hubble-wp/hubble-wp.sh >> /home/USER/hubble-wp/log.txt
-'''
+```
 
 Remember to replace the user with your own username. Now save the file and close the text editor.
 
