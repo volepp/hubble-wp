@@ -14,7 +14,7 @@ If you haven't used crontab before you have to specify which text editor you wan
 
 Now add the following line to the end of the file that opens:
 ```
-0 * * * * /bin/sh /path/to/hubble-wp/hubble-wp.sh >> /path/to/hubble-wp/log.txt
+0 * * * * cd /path/to/hubble-wp && /bin/sh /path/to/hubble-wp/hubble-wp.sh >> /path/to/hubble-wp/log.txt
 ```
 
 Remember to replace the path to your own one. Now save the file and close the text editor.
