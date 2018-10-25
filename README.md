@@ -1,6 +1,6 @@
 ### Hubble Space Telescope wallpapers
 
-* * Note that this was developed on a machine that's running Ubuntu 18.04. The script doesn't seem to work on a machine running Ubuntu 16.04 * *
+*Note that this was developed on a machine that's running Ubuntu 18.04. The script doesn't seem to work on a machine running Ubuntu 16.04*
 
 This is a small script to fetch an image taken by the Hubble Space Telescope and set it as your wallpaper.
 
