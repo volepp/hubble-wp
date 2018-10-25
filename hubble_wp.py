@@ -1,9 +1,5 @@
-import random
-import urllib2
+import random, urllib2, re, os, datetime
 from bs4 import BeautifulSoup
-import re
-import os
-import datetime
 
 print("[%s] Starting execution..." % datetime.datetime.now())
 
